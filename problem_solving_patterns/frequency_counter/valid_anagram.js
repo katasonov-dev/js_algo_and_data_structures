@@ -19,7 +19,7 @@ const validAnagram = (string1, string2) => {
     frequency_counter2[char] = (frequency_counter2[char] || 0) + 1;
   }
 
-  for (char of string1_arr) {
+  for (let char of string1_arr) {
     if (frequency_counter1[char] !== frequency_counter2[char]) {
       return false;
     }
