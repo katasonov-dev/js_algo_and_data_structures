@@ -11,7 +11,7 @@ Time Complexity - O(N + M)
 Space Complexity - O(1)
 */
 
-function isSubsequence(string_1, string_2) {
+const isSubsequence = (string_1, string_2) => {
   let arr_1 = string_1.split("");
   let arr_2 = string_2.split("");
   let j = 0;

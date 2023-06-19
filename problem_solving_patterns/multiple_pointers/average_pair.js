@@ -6,7 +6,7 @@ Time: O(N)
 Space: O(1)
 */
 
-function averagePair(arr, average) {
+const averagePair = (arr, average) => {
   if (arr.length === 0) {
     return false;
   }
